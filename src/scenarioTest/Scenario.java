@@ -1,7 +1,8 @@
 package scenarioTest;
 
 import personnages.Gaulois;
-import villagegaulois.Etal;
+import produit.*;
+import villagegaulois.*;
 
 public class Scenario {
 
@@ -43,6 +44,7 @@ public class Scenario {
 		}
 
 		System.out.println(village);
+
 
 	}
 
