@@ -2,14 +2,10 @@ package produit;
 
 public abstract class Produit {
 	private String nom;
-	protected enum unite{
-		LITRE,GRAMME,KILOGRAMME,CENTILITRE,MILLILITRE,PAR_PIÈCE;
-		}
-	protected unite unité;
+	protected unite unite;
 	
-	protected Produit(String nom, unite unité) {
+	protected Produit(String nom) {
 	this.nom = nom;
-	this.unité = unité;
 	}
 
 	/**

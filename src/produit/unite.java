@@ -1,17 +1,16 @@
 package produit;
 
-public enum unité {
+public enum unite {
 	LITRE("Litre"),GRAMME("Gramme"),KILOGRAMME("Kilogramme"),CENTILITRE("centilitre"),MILLILITRE("Millilitre"),PAR_PIÈCE("Par pièce");
 	
 	private String nom;
 
-	private unité (String nom) {
+	private unite (String nom) {
 		this.nom = nom;
 	}
 	
-//	public String toString() {
-//		return nom;
-//	}
+	@Override
+	public String toString() {
+		return nom;
+	}
 }
-
-//LITRE,gramme,kilogramme,centilitre,millilitre, par pièce

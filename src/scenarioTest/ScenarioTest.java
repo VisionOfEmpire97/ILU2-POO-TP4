@@ -18,7 +18,7 @@ public class ScenarioTest {
 		Etal<Sanglier> etalSanglier = new Etal<>();
 		etals[0] = etalSanglier;
 		
-		etals[0].occuperEtal(new Gaulois("Ordralfabétix", 12), new Poisson(12, "lundi"), 10);
+		etals[0].occuperEtal(new Gaulois("Ordralfabétix", 12), new Poisson("lundi"), 10);
 	}
 	
 }

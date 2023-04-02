@@ -1,14 +1,14 @@
 package produit;
 
 public class Poisson extends Produit{
-	String datePeche;
-	String nom = "poisson";
+	private String datePeche;
 
 	public Poisson(String datePeche) {
-		super("poisson",unite.PAR_PIÈCE);
+		super("poisson");
+		this.unite = produit.unite.PAR_PIÈCE;
 		this.datePeche = datePeche;
 	}
 	public String decrireProduit() {
-		return ("poisson pêchés" + datePeche);
+		return ("poisson pêchés " + datePeche);
 	}
 }
